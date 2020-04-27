@@ -8,8 +8,8 @@ You're able to choose among these calendar ids:
 - 48cadf26-975e-11e5-b9c2-c8e0eb18c1e9
 - 452dccfc-975e-11e5-bfa5-c8e0eb18c1e9
 
-The first possible timeslot starts at _2019-04-23T08:00:00_ and the last ends at _2019-04-27T20:00:00_, and a timeslot is either of 15 or 30 minutes
-of length.
+The first possible timeslot starts at _2019-04-23T08:00:00_ and the last ends at _2019-04-27T20:00:00_.
+A timeslot is either of 15 or 30 minutes of length.
 
 
 ## Getting started
