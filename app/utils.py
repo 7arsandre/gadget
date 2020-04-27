@@ -50,7 +50,7 @@ def get_calendar_owner(calendar_id):
 
     return calendar_owner_mapping[calendar_id]
 
-def print_timeslots(calendar_owner, available_timeslots, duration):
+def print_available_timeslots(calendar_owner, available_timeslots, duration):
     """
     Print the available timeslots
 

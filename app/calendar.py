@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-from app.utils import get_calendar, format_time,get_calendar_owner, print_timeslots
+from app.utils import get_calendar, format_time,get_calendar_owner, print_available_timeslots
 
 def available_appointment(appointments, timeslot_start, timeslot_end):
     """
@@ -85,6 +85,6 @@ def find_available_time(calendar_ids, duration, period_to_search):
         available_timeslots = check_timeslots(calendar.get('timeslots'), calendar.get('appointments'), duration, period_to_search)
 
         if(len(available_timeslots) > 0 ):
-            print_timeslots(calendar_owner, available_timeslots, duration)
+            print_available_timeslots(calendar_owner, available_timeslots, duration)
         else:
             print(f'Found zero available timeslots with a duration of {duration} with {calendar_owner}')
